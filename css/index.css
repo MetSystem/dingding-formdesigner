@@ -65,30 +65,32 @@ html,body,.wrap{
 /*控件区域*/
 .design-component{
 	width:25%;
-	position:absolute;	
-	margin-left:100px;
-	margin-top:80px;
+	position:absolute;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 /*工作区域*/
 .design-workspace{
 	position: absolute;
 	left:50%;
-	margin-left:-225px;
+	margin-left: -420px;
 	float:left;
 	margin-right:3%;
-	min-width:450px;
-	background-image: url(images/design-phone.png);
+	min-width: 500px;
+	/* background-image: url(images/design-phone.png); */
 	background-repeat: no-repeat;
 	background-position: top center;
 	height:888px;
+	/* max-width: 800px; */
 }
 /*工作控件的表单区域*/
 .design-workspace-form{
-	max-height:688px;
+	max-height: 620px;
 	position: absolute;
+	width: 760px;
 	left:25px;
 	right:25px;
-	top:106px;
+	/* top:106px; */
 	overflow-x:hidden;
 	overflow-y:auto;
 	background-color: #F0EFF4;
@@ -116,8 +118,9 @@ html,body,.wrap{
 	width:100px;
 	height:30px;
 	line-height: 30px;
-	background-color: #332C51;
+	background-color: black;
 	margin-bottom: 20px;
+	color: white;
 }
 .design-component-title .arrow-down{
 	
@@ -125,7 +128,7 @@ html,body,.wrap{
 .design-component-item{
 	/*border:1px dashed white;*/
 	border:1px dashed rgba(255,255,255,0.6);
-	width:150px;
+	width: 120px;
 	height:40px;
 	line-height: 40px;
 	text-align: left;
@@ -159,8 +162,11 @@ html,body,.wrap{
 .design-workspace-code{
 }
 .component-item-cantainer{
-	margin-top:10px;
-	margin-bottom:10px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	width: 49%;
+	float: left;
 }
 .component-item-cantainer[type="table"]>.component-item-view{
 	padding:0px;
@@ -312,12 +318,12 @@ html,body,.wrap{
 }
 .component-item-view-textareafield{
 	color: #858e99;
-    font-size: 15px;
-    vertical-align: top;
-    border:0;
-    outline: none;
-    height : 50px;	
-    display:inline-block;
+	font-size: 15px;
+	vertical-align: top;
+	border:0;
+	outline: none;
+	/* height : 50px; */
+	display:inline-block;
 }
 .component-item-view-numberfield{
 	color: #858e99;
@@ -500,7 +506,8 @@ html,body,.wrap{
 .design-setting-header{
 	margin:0px;
 	padding:0px;
-	margin-left:-60px;
+	margin-left: 40px;
+	margin-right: 5px;
 }
 .design-setting-header>ul{
 	list-style: none;
@@ -521,8 +528,8 @@ html,body,.wrap{
 	background-color: black;
 }
 .design-setting-body{
-	margin-left:-100px;
-	margin-right:20px;
+	margin-left: 30px;
+	margin-right: 5px;
 	max-height: 688px;
 	overflow-y:auto;
 	overflow-x : hidden;
@@ -592,14 +599,14 @@ html,body,.wrap{
 }
 .title-ipt,.title2-ipt,.placeholder-ipt,.actionname-ipt{
 	background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.6);
-    color: #fff;
-    padding: 6px 10px;
-    width: 310px;
-    border-radius: 2px;
-    outline: none;
-    font-size: 12px;
-    border-radius:2px;
+	border: 1px solid rgba(255,255,255,0.6);
+	color: #fff;
+	padding: 6px 10px;
+	width: 250px;
+	border-radius: 2px;
+	outline: none;
+	font-size: 12px;
+	border-radius:2px;
 }
 .options-ipt{
 	background: rgba(255,255,255,0.1);
